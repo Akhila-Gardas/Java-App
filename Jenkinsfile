@@ -37,7 +37,7 @@ pipeline {
                 sh '''
                     docker run -d \
                     --name java-app-container \
-                    -p 8081:8080 \
+                    -p 8082:8080 \
                     java-app
                 '''
             }
